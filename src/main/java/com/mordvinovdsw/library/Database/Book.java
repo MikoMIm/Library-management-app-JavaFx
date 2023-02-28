@@ -23,33 +23,25 @@ public class Book {
         return bookID.get();
     }
 
-    public void setBookID(int bookID) {
-        this.bookID.set(bookID);
-    }
+  
 
     public String getBookTitle() {
         return bookTitle.get();
     }
 
-    public void setBookTitle(String bookTitle) {
-        this.bookTitle.set(bookTitle);
-    }
+ 
 
     public double getPrice() {
         return price.get();
     }
 
-    public void setPrice(double price) {
-        this.price.set(price);
-    }
+   
 
     public int getBookNumber() {
         return bookNumber.get();
     }
 
-    public void setBookNumber(int bookNumber) {
-        this.bookNumber.set(bookNumber);
-    }
+    
 }
 
 
