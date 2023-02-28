@@ -27,49 +27,39 @@ public class Member{
         public int getId() {
         return Id.get();
     }
-        public void setId(int id) {this.Id.set(id);}
+       
 
         public String getName() {return Name.get();}
 
-        public void setName(String name) {this.Name.set(name);}
+     
 
         public String getPhone() {return Phone.get();}
 
-    public void setPhone(String phone) {
-        this.Phone.set(phone);
-    }
+  
 
     public String getEmail() {
         return Email.get();
     }
 
-    public void setEmail(String email) {
-        this.Email.set(email);
-    }
+
 
     public String getRegisterDate() {
         return RegisterDate.get();
     }
 
-    public void setRegisterDate(String registerDate) {
-        this.RegisterDate.set(registerDate);
-    }
+  
 
     public String getExpairDate() {
         return ExpairDate.get();
     }
 
-    public void setExpairDate(String expairDate) {
-        this.ExpairDate.set(expairDate);
-    }
+  
 
     public String getStatus() {
         return Status.get();
     }
 
-    public void setStatus(String status) {
-        this.Status.set(status);
-    }
+   
 
 
 }
