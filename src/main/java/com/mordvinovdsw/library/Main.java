@@ -21,8 +21,6 @@ public class Main extends Application {
         FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("hello-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 1150, 650);
         stage.setResizable(false);
-        Image icon = new Image("Icon.png");
-        stage.getIcons().add(icon);
         stage.setTitle("Just Lib System");
         stage.setScene(scene);
         stage.show();
