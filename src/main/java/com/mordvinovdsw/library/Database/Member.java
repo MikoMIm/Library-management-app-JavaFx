@@ -31,35 +31,23 @@ public class Member{
 
         public String getName() {return Name.get();}
 
-     
-
         public String getPhone() {return Phone.get();}
 
   
-
     public String getEmail() {
         return Email.get();
     }
-
-
 
     public String getRegisterDate() {
         return RegisterDate.get();
     }
 
-  
-
     public String getExpairDate() {
         return ExpairDate.get();
     }
 
-  
-
     public String getStatus() {
         return Status.get();
     }
-
-   
-
 
 }
