@@ -23,19 +23,13 @@ public class Book {
         return bookID.get();
     }
 
-  
-
     public String getBookTitle() {
         return bookTitle.get();
     }
 
- 
-
     public double getPrice() {
         return price.get();
     }
-
-   
 
     public int getBookNumber() {
         return bookNumber.get();
