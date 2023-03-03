@@ -24,20 +24,16 @@ public class Book_list_Controller implements Initializable{
     private TableColumn<Book, Integer>  bookIDColumn ;
     @FXML
     private TableColumn<Book, String> bookTitleColumn;
-
     @FXML
     private TableColumn<Book, Double> priceColumn ;
     @FXML
     private TableColumn<Book, Integer> bookNumberColumn ;
     @FXML
     private TextField bookIDField;
-
     @FXML
     private TextField bookTitleField;
-
     @FXML
     private TextField priceField;
-
     @FXML
     private TextField bookNumberField;
 
