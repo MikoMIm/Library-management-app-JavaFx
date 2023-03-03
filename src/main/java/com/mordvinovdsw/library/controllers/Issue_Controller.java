@@ -28,25 +28,18 @@ public class Issue_Controller implements Initializable {
 
     @FXML
     private TableView<IssueBook> IssueView;
-
     @FXML
     private TableColumn<IssueBook, Integer> IDIssueBook;
-
     @FXML
     private TableColumn<IssueBook, Integer> ID_book;
-
     @FXML
     private TableColumn<IssueBook, Integer> ID_Member;
-
     @FXML
     private TableColumn<IssueBook, String> DateE;
-
     @FXML
     private TableColumn<IssueBook, String> DateR;
-
     @FXML
     private TableColumn<IssueBook, String> status;
-
     @FXML
     private TextField idField;
     @FXML
